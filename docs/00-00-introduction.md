@@ -2,7 +2,7 @@
 
 There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/).
 
-We're just going to focus on tips for C# developers, especially the stuff we use most in our TeamCity projects.
+This guide just looks at the essentials, explained for an audience of C# developers.
 
 Starting with some basics...
 
