@@ -25,5 +25,6 @@
   * [DSL overview](05-01-dsl-overview.md)
   * [Defining lambdas](05-02-defining-lambdas.md)
   * [Calling lambdas](05-03-calling-lambdas.md)
+  * [Function literals with receiver](05-04-function-literals-with-receiver.md)
 
 * [Summary](06-00-summary.md)
