@@ -4,6 +4,6 @@ Kotlin has
 * Class methods
 * Extension methods
 
-##### Let's dive in 🤿
+##### Let's dive in :diving_mask:
 
 [Next: fun](02-01-fun.md)
