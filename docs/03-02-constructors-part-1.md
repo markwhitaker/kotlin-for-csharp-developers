@@ -1,5 +1,5 @@
 # Constructors (part 1)
-Constructors are called without a `new` keyword in Kotlin.
+There is no `new` keyword in Kotlin: constructors are called directly.
 
 **Kotlin**
 ```kotlin

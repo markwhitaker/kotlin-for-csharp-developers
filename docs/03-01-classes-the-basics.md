@@ -1,23 +1,23 @@
 # Classes: the basics
 In Kotlin, you declare:
 * a class with `class`
-* methods with `fun` 🥳
+* methods with `fun`
 * properties with `var` or `val`
 
 **C#**
 ```csharp
 public class Thing
 {
-    private string _field;
+    private string _readWriteField;
 
-    public string Property1 { get; set; }
+    public string ReadOnlyProperty { get; }
 
-    public string Property2 { get; }
+    public string ReadWriteProperty1 { get; set; }
 
-    public string Property3
+    public string ReadWriteProperty2
     {
-        get => LoadProperty3();
-        set => SaveProperty3(value);
+        get => LoadValue();
+        set => SaveValue(value);
     }
 }
 ```
@@ -25,16 +25,16 @@ public class Thing
 **Kotlin**
 ```kotlin
 class Thing {
-    private var field: String = ""
+    private var readWriteField: String = ""
 
-    var property1: String = ""   // Use var for { get; set } behaviour
+    val readOnlyProperty: String = ""   // Use val for { get; } behaviour
 
-    val property2: String = ""   // Use val for { get; } behaviour
+    var readWriteProperty1: String = ""   // Use var for { get; set; } behaviour
 
-    var property3: String
-        get() = loadProperty3()
+    var readWriteProperty2: String
+        get() = loadValue()
         set(value) {
-            saveProperty3(value)
+            saveValue(value)
         }
 }
 ```

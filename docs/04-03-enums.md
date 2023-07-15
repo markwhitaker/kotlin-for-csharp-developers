@@ -1,5 +1,5 @@
 # Enums
-Enums are classes in Kotlin.
+Enums are classes in Kotlin and their values are named in `SCREAMING_CASE`.
 
 **C#**
 ```csharp
@@ -20,7 +20,7 @@ enum class TrafficLight {
 }
 ```
 
-This means they can have properties and methods.
+Since they are classes, they can have properties and methods.
 
 **Kotlin**
 ```kotlin
