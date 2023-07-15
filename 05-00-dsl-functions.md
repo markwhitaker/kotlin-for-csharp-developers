@@ -12,6 +12,6 @@ html {
 
 This looks nothing like Kotlin syntax, so what's going on?
 
-**Let's investigate** :mag:
+**Let's investigate** 🔎
 
 [Next: DSL overview](05-01-dsl-overview.md)

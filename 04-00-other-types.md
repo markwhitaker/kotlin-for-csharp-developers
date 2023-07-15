@@ -4,6 +4,6 @@ As well as classes, Kotlin has
 * Objects
 * Enums
 
-##### Let's have a butcher's :cut_of_meat:
+##### Let's have a butcher's 🥩
 
 [Next: Interfaces](04-01-interfaces.md)

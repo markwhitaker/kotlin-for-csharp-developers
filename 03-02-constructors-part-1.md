@@ -6,7 +6,7 @@ Constructors are called without a `new` keyword in Kotlin
 var myObject = MyClass()
 ```
 
-### Constructor declaration :exploding_head:
+### Constructor declaration 🤯
 Here's where things get funky
 
 A class's **primary constructor** is defined inline with the class declaration
@@ -68,7 +68,7 @@ var myObject = MyClass("hello world")
 println(myObject.someProperty)   // "Hello world"
 ```
 
-This looks :face_with_spiral_eyes: at first sight but it makes for nice small classes when you compare with C#...
+This looks 😵‍💫 at first sight but it makes for nice small classes when you compare with C#...
 
 #### C#
 ```csharp

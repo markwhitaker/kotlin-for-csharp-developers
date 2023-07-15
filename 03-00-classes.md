@@ -5,6 +5,6 @@ Kotlin has
 * open classes
 * abstract classes
 
-##### Let's get ready to rumble :boxing_glove:
+##### Let's get ready to rumble 🥊
 
 [Next: The basics](03-01-the-basics.md)
