@@ -15,7 +15,6 @@ html {
 * Lambdas
 * Trailing lambdas
 * Function literals with receiver
-* `apply()`
 
 Let's look at each in turn to build an understanding of that strange DSL syntax.
 

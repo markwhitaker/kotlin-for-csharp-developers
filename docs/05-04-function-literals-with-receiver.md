@@ -1,1 +1,4 @@
-[Next: apply()](05-05-apply.md)
+# Function literals with receiver
+
+
+[Next: apply()](06-00-summary.md)

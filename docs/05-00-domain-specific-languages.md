@@ -10,7 +10,7 @@ html {
 }
 ```
 
-This looks nothing like the Kotlin syntax we've seen so far. What's going on here?
+This looks very different to the Kotlin syntax we've seen so far. What's going on here?
 
 **Let's investigate 🔎**
 
