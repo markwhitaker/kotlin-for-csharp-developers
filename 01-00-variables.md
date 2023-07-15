@@ -4,6 +4,6 @@ Kotlin variables can be
 * read-only
 * constant
 
-##### Let's take a look 👀
+##### Let's take a look :eyes:
 
 [Next: var](01-01-var.md)
