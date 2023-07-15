@@ -8,4 +8,4 @@ Kotlin has
 
 ##### Let's get ready to rumble 🥊
 
-[Next: The basics](03.1.%20The%20basics.md)
+[Next: The basics](03-01-the-basics.md)

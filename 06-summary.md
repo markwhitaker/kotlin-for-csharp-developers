@@ -11,8 +11,6 @@ Kotlin for C# developers
 * **Interfaces**: `interface`
 * **Objects**: `object` and `companion object`
 * **Enums**: `enum class`
-
+* **DSL functions**: lambdas, trailing lambdas, function literals with receiver, `apply()`
 
 For everything else do check out [kotlinlang.org/docs](https://kotlinlang.org/docs/), it's excellent
-
-[Next...](07.%20Questions.md)

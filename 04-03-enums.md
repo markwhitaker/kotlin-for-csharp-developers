@@ -65,4 +65,4 @@ TrafficLight.RED.describe()
 TrafficLight.GREEN.serialize()
 ```
 
-[Next: DSL functions](05.%20DSL%20functions.md)
+[Next: DSL functions](05-00-dsl-functions.md)

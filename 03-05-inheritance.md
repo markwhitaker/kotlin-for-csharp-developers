@@ -4,4 +4,4 @@ In Kotlin, **classes**, **methods** and **properties** are `final` by default - 
 
 In order to extend a class or override a method or property, it must be marked either `open` or `abstract`
 
-[Next: open](03.6.%20open.md)
+[Next: open](03-06-open.md)

@@ -50,4 +50,4 @@ class Thing(name: String) : AbstractThing(name) {
 }
 ```
 
-[Next: Other types](04.%20Other%20types.md)
+[Next: Other types](04-00-other-types.md)

@@ -7,4 +7,4 @@ Kotlin has
 
 ##### Let's dive in 🤿
 
-[Next: fun](02.1.%20fun.md)
+[Next: fun](02-01-fun.md)

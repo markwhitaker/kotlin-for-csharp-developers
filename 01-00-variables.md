@@ -7,4 +7,4 @@ Kotlin variables can be
 
 ##### Let's take a look 👀
 
-[Next: var](01.1.%20var.md)
+[Next: var](01-01-var.md)

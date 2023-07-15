@@ -35,4 +35,4 @@ class Service(
 
 **Note:** overloaded constructors must call the primary constructor
 
-[Next: Inheritance](03.5.%20Inheritance.md)
+[Next: Inheritance](03-05-inheritance.md)

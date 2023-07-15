@@ -1,6 +1,6 @@
 Kotlin for C# developers
 # Defining lambdas
-Rember that [function parameters](02.%20Functions) are passed as `name: Type` in Kotlin, e.g.
+Rember that [function parameters](02-00-Functions) are passed as `name: Type` in Kotlin, e.g.
 
 #### Kotlin
 ```
@@ -31,4 +31,4 @@ fun outputAsHexString(value: Int, convertToHexString: (Int) -> String) {
 }
 ```
 
-[Next: Calling lambdas](05.3.%20Calling%20lambdas.md)
+[Next: Calling lambdas](05-03-calling-lambdas.md)

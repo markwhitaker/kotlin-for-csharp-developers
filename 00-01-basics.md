@@ -33,4 +33,4 @@ class ImplicitlyPublic {
 }
 ```
 
-[Next: Variables](01.%20Variables.md)
+[Next: Variables](01-00-variables.md)

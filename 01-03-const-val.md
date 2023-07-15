@@ -28,4 +28,4 @@ host = "portswigger.net"
 host = "portswigger.com"  // ERROR: can only assign once
 ```
 
-[Next: Functions](02.%20Functions.md)
+[Next: Functions](02-00-functions.md)

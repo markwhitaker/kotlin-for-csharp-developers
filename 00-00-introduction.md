@@ -7,4 +7,4 @@ We're just going to focus on tips for C# developers, especially the stuff we use
 
 Starting with some basics...
 
-[Next: Basics](00.1.%20Basics.md)
+[Next: Basics](00-01-basics.md)

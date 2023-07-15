@@ -29,4 +29,4 @@ val String.masked: String
     get() = "*".repeat(length)   // Note, as in C# 'this' can be omitted
 ```
 
-[Next: Classes](03.%20Classes.md)
+[Next: Classes](03-00-classes.md)

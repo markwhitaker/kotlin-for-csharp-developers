@@ -97,4 +97,4 @@ var instance = Singleton.instance     // property called directly on the class
 instance.instanceMethod()
 ```
 
-[Next: Enums](04.3.%20Enums.md)
+[Next: Enums](04-03-enums.md)

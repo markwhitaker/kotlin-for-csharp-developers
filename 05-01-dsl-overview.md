@@ -20,4 +20,4 @@ html {
 
 Let's look at each in turn to build an understanding of that strange DSL syntax.
 
-[Next: Defining lambdas](05.2.%20Defining%20lambdas.md)
+[Next: Defining lambdas](05-02-defining-lambdas.md)

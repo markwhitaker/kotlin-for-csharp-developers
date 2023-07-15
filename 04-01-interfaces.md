@@ -34,4 +34,4 @@ class MyClass : MyInterface {
 }
 ```
 
-[Next: Objects](04.2.%20Objects.md)
+[Next: Objects](04-02-objects.md)

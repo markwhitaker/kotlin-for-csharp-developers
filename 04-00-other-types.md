@@ -7,4 +7,4 @@ As well as classes, Kotlin has
 
 ##### Let's have a butcher's 🥩
 
-[Next: Interfaces](04.1.%20Interfaces.md)
+[Next: Interfaces](04-01-interfaces.md)

@@ -44,4 +44,4 @@ class Thing {
 * There's no distinction between fields and properties in Kotlin: all have implicit `get()`/`set()` methods
 * Kotlin is strict about nulls, hence the `String` properties have to be initialised here. We'll see soon how to intialise them via the constructor...
 
-[Next: Constructors (part 1)](03.2.%20Constructors%20(part%201).md)
+[Next: Constructors (part 1)](03-02-constructors-part-1.md)

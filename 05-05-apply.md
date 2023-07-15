@@ -27,4 +27,4 @@ fun buildWilf = Person().apply {
 	}
 ```
 
-[Next: apply()](05.4.%20apply().md)
+[Next: Summary](06-summary.md)
