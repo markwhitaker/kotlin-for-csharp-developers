@@ -83,4 +83,4 @@ myHtml.div("Goodbye world")
 println(myHtml)
 ```
 
-[Next: Function literals with receiver (part 2)](05-05-function-literals-with-receiver-part-1.md)
+[Next: Function literals with receiver (part 2)](05-05-function-literals-with-receiver-part-2.md)
