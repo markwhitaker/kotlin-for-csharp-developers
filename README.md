@@ -1,29 +1,3 @@
-# Kotlin for C# Developers
+# Kotlin for C# developers
 
-* [Introduction](00-00-introduction.md)
-  * [Basics](00-01-basics.md)
-* [Variables](01-00-variables.md)
-  * [var](01-01-var.md)
-  * [val](01-02-val.md)
-  * [const val](01-03-const-val.md)
-* [Functions](02-00-functions.md)
-  * [fun](02-01-fun.md)
-  * [Extension methods](02-02-extension-methods.md)
-* [Classes](03-00-classes.md)
-  * [The basics](03-01-the-basics.md)
-  * [Constructors (part 1)](03-02-constructors-part-1.md)
-  * [Constructors (part 2)](03-03-constructors-part-2.md)
-  * [Constructors (part 3)](03-04-constructors-part-3.md)
-  * [Inheritance](03-05-inheritance.md)
-  * [open](03-06-open.md)
-  * [abstract](03-07-abstract.md)
-* [Other types](04-00-other-types.md)
-  * [Interfaces](04-01-interfaces.md)
-  * [Objects](04-02-objects.md)
-  * [Enums](04-03-enums.md)
-* [Domain-specific languages](05-00-domain-specific-languages.md)
-  * [DSL overview](05-01-dsl-overview.md)
-  * [Defining lambdas](05-02-defining-lambdas.md)
-  * [Calling lambdas](05-03-calling-lambdas.md)
-
-* [Summary](06-00-summary.md)
+https://markwhitaker.github.io/kotlin-for-csharp-developers/
