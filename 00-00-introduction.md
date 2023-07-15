@@ -1,4 +1,4 @@
-# Kotlin for C# developers
+# Introduction
 
 There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/)
 
