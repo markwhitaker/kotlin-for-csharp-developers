@@ -1,1 +1,3 @@
 title: Kotlin for C# Developers
+plugins:
+  - jemoji
