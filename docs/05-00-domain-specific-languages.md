@@ -1,7 +1,7 @@
 # Domain-specific languages
 Sometimes we see stuff like this in Kotlin:
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 html {
     body {
@@ -12,6 +12,6 @@ html {
 
 This looks nothing like the Kotlin syntax we've seen so far. What's going on here?
 
-**Let's investigate** 🔎
+**Let's investigate 🔎**
 
 [Next: DSL overview](05-01-dsl-overview.md)

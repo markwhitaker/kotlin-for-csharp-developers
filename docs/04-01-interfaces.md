@@ -1,7 +1,7 @@
 # Interfaces
-Very similar to C# (although without the `I` naming convention)
+Kotlin interfaces are very similar to C#'s (although without the `I` naming convention).
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 interface MyInterface {
     val name: String
@@ -9,9 +9,9 @@ interface MyInterface {
 }
 ```
 
-...except methods can have default implementations
+Like C# 8.0, Kotlin methods can have default implementations.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 interface MyInterface {
     val name: String
@@ -21,9 +21,9 @@ interface MyInterface {
 }
 ```
 
-Classes implement interface members with `override`
+Classes implement interface members with the `override` keyword.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass : MyInterface {
     override val name: String = "Bob"

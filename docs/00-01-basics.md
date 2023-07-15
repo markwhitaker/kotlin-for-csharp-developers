@@ -1,9 +1,9 @@
 # Basics
 ## Scope
-Variables and functions can be declared at
-* **file scope** (globals), or
+Variables and functions can be declared at:
+* **file scope** (globals)
 * **local scope** (variables and local functions)
-* **class**/object/interface **scope** (fields, properties and methods)
+* **type scope** (fields, properties and methods in a class, object or interface)
 
 ## Visibility
 Kotlin has the following visibility modifiers:
@@ -14,7 +14,7 @@ Kotlin has the following visibility modifiers:
 
 The default for everything is `public`.
 
-#### C#
+**C#**
 ```csharp
 class ImplicitlyInternal
 {
@@ -24,7 +24,7 @@ class ImplicitlyInternal
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class ImplicitlyPublic {
     fun implicitlyPublic() {

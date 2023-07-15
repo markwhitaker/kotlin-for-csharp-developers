@@ -1,10 +1,10 @@
 # Classes: the basics
-Declare...
+In Kotlin, you declare:
 * a class with `class`
 * methods with `fun` 🥳
-* properties with `var`/`val`
+* properties with `var` or `val`
 
-#### C#
+**C#**
 ```csharp
 public class Thing
 {
@@ -22,7 +22,7 @@ public class Thing
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Thing {
     private var field: String = ""
@@ -40,6 +40,7 @@ class Thing {
 ```
 
 **Two things to note:**
+
 * There's no distinction between fields and properties in Kotlin: all have implicit `get()`/`set()` methods
 * Kotlin is strict about nulls, hence the `String` properties have to be initialised here. We'll see soon how to intialise them via the constructor...
 

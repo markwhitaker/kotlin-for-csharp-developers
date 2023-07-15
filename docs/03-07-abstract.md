@@ -1,7 +1,7 @@
 # abstract
-Very similar to C#, and open/closed rules are identical to those for `open` classes
+Kotlin's `abstract` is very similar to its C# counterpart, and open/closed rules are identical to those for `open` classes.
 
-#### C#
+**C#**
 ```csharp
 public abstract class AbstractThing
 {
@@ -32,7 +32,7 @@ public sealed class Thing : AbstractThing
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 abstract class AbstractThing(val name: String) {
     fun run() {

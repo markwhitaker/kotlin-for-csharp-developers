@@ -1,7 +1,7 @@
 # DSL overview
 The code snippet on the previous page...
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 html {
     body {
@@ -10,7 +10,7 @@ html {
 }
 ```
 
-...is an example of a **domain-specific language** or **DSL**, also referred to as **type-safe builder syntax**. It combines a few Kotlin features, namely:
+...is an example of a **domain-specific language** or **DSL**, also referred to as **type-safe builder syntax**. It combines a few Kotlin features:
 
 * Lambdas
 * Trailing lambdas

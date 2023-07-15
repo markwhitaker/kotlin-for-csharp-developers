@@ -1,7 +1,7 @@
 # Constructors (part 3)
-Overloaded constructors are implemented with the `constructor` keyword:
+Overloaded constructors are implemented with the `constructor` keyword.
 
-#### C#
+**C#**
 ```csharp
 public class Service
 {
@@ -19,7 +19,7 @@ public class Service
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Service(
     private val repository: Repository
@@ -30,8 +30,8 @@ class Service(
 }
 ```
 
-**Note:** only the primary constructor can declare properties with `val`/`var`
+**Note:** only the primary constructor can declare properties with `val`/`var`.
 
-**Note:** overloaded constructors must call the primary constructor
+**Note:** overloaded constructors must call the primary constructor.
 
 [Next: Inheritance](03-05-inheritance.md)

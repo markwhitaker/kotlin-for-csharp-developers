@@ -1,9 +1,9 @@
 # Constructors (part 2)
 Ready for an extra helping of 🤯?
 
-You can mix and match constructor **properties** and regular constructor **parameters**
+You can mix and match constructor **properties** and regular constructor **parameters**.
 
-#### C#
+**C#**
 ```csharp
 public class Service
 {
@@ -20,7 +20,7 @@ public class Service
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Service(
     private val repository: Repository,  // Private, read-only property
@@ -30,9 +30,9 @@ class Service(
 }
 ```
 
-**And**... a class can have both **constructor properties** and **non-constructor properties**...
+**And**... a class can have both **constructor properties** and **non-constructor properties**.
 
-#### C#
+**C#**
 ```csharp
 public class Service
 {
@@ -47,7 +47,7 @@ public class Service
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Service(
     private val repository: Repository

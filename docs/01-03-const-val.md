@@ -1,11 +1,11 @@
 # Variables
 ## const val
-Equivalent to `const` in C#
-* Must be initialised where it's declared
-* Must be initialised with a compile-time constant value, whereas `val` is initialised at runtime
-* Named in `SCREAMING_CASE` (like Java constants)
+`const val` is equivalent to `const` in C#. In Kotlin, a `const val`:
+* must be initialised where it's declared
+* must be initialised with a compile-time constant value, whereas `val` is initialised at runtime
+* is named in `SCREAMING_CASE` (like Java constants)
 
-#### C#
+**C#**
 ```csharp
 const int port = 80;
 readonly string schema = "https";
@@ -16,7 +16,7 @@ host = "portswigger.net";
 host = "portswigger.com";  // ERROR: can only assign once
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 const val PORT = 80   // As above, type can be inferred
 val schema = "https"

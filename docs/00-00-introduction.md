@@ -1,8 +1,8 @@
 # Introduction
 
-There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/)
+There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/).
 
-We're just going to focus on tips for C# developers, especially the stuff we use most in our TeamCity projects
+We're just going to focus on tips for C# developers, especially the stuff we use most in our TeamCity projects.
 
 Starting with some basics...
 

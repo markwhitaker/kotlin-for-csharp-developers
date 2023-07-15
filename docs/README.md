@@ -10,7 +10,7 @@
   * [fun](02-01-fun.md)
   * [Extension methods](02-02-extension-methods.md)
 * [Classes](03-00-classes.md)
-  * [The basics](03-01-the-basics.md)
+  * [Classes: the basics](03-01-classes-the-basics.md)
   * [Constructors (part 1)](03-02-constructors-part-1.md)
   * [Constructors (part 2)](03-03-constructors-part-2.md)
   * [Constructors (part 3)](03-04-constructors-part-3.md)

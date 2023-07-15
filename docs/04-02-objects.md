@@ -1,11 +1,11 @@
 # Objects
-Kotlin doesn't have `static` (or anything equivalent)
+Kotlin doesn't have `static` (or anything equivalent).
 
-However, it has built-in support for singleton objects with the `object` keyword
+However, it has built-in support for singleton objects with the `object` keyword.
 
 So the nearest equivalent to this...
 
-#### C#
+**C#**
 ```csharp
 public static class Thing
 {
@@ -23,7 +23,7 @@ Console.WriteLine(Thing.Name);
 
 is this...
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 object Thing {
     val name = "Bob"
@@ -37,11 +37,11 @@ Thing.doStuff()
 println(Thing.name)
 ```
 
-**Note:** `object` names are capitalised, like a class
+**Note:** Objects are named in `PascalCase`, like classes and interfaces.
 
-Objects can extend classes and implement interfaces
+Objects can extend classes and implement interfaces.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 object Thing : BaseClass(), Interface {
     override fun baseClassMethod() {
@@ -55,9 +55,9 @@ object Thing : BaseClass(), Interface {
 ```
 
 ## Companion objects
-The equivalent of a **static method** in a **non-static class** can be achieved with a `companion object`
+The equivalent of a **static method** in a **non-static class** can be achieved with a `companion object`.
 
-#### C#
+**C#**
 ```csharp
 public class Singleton
 {
@@ -79,7 +79,7 @@ var instance = Singleton.Instance;
 instance.InstanceMethod();
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Singleton private constructor() {
     fun instanceMethod() {

@@ -1,17 +1,17 @@
 # Constructors (part 1)
-Constructors are called without a `new` keyword in Kotlin
+Constructors are called without a `new` keyword in Kotlin.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 var myObject = MyClass()
 ```
 
 ### Constructor declaration 🤯
-Here's where things get funky
+Here's where things get funky.
 
-A class's **primary constructor** is defined inline with the class declaration
+A class's **primary constructor** is defined inline with the class declaration.
 
-#### C#
+**C#**
 ```csharp
 public class MyClass
 {
@@ -22,31 +22,31 @@ public class MyClass
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass constructor(s: String) {
 }
 ```
 
-The constructor here (like everything in Kotlin) is implicitly `public`, so if that's what we want we can omit the `constructor` keyword
+The constructor here (like everything in Kotlin) is implicitly `public`, so if that's what we want we can omit the `constructor` keyword.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass(s: String) {
 }
 ```
 
-Or we can make it `private`/`protected`/`internal` like this
+Or we can make it `private`/`protected`/`internal`.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass private constructor(s: String) {
 }
 ```
 
-If we need to access `s` we can do it in an `init` block:
+If we need to access `s` we can do it in an `init` block.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass(s: String) {
     private val someProperty: String
@@ -57,9 +57,9 @@ class MyClass(s: String) {
 }
 ```
 
-**But** a more common pattern is to initialise properties directly in the constructor by adding the `val` or `var` keyword...
+**But** a more common pattern is to initialise properties directly in the constructor by adding the `val` or `var` keyword.
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class MyClass(val someProperty: String) {
 }
@@ -68,9 +68,9 @@ var myObject = MyClass("hello world")
 println(myObject.someProperty)   // "Hello world"
 ```
 
-This looks 😵‍💫 at first sight but it makes for nice small classes when you compare with C#...
+This looks 😵‍💫 at first sight but it makes for nice small classes when you compare with C#.
 
-#### C#
+**C#**
 ```csharp
 public class Service
 {
@@ -88,7 +88,7 @@ public class Service
 }
 ```
 
-#### Kotlin
+**Kotlin**
 ```kotlin
 class Service(
     private val repository: Repository,

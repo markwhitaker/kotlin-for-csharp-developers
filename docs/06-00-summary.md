@@ -12,4 +12,4 @@
 * **Enums**: `enum class`
 * **DSLs**: lambdas, trailing lambdas, function literals with receiver, `apply()`
 
-For everything else do check out [kotlinlang.org/docs](https://kotlinlang.org/docs/), it's excellent
+For everything else do check out [kotlinlang.org/docs](https://kotlinlang.org/docs/), it's excellent.
