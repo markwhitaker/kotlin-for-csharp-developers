@@ -4,8 +4,12 @@ Sometimes we see stuff like this in Kotlin:
 **Kotlin**
 ```kotlin
 html {
+    head {
+        title("My website")
+    }
+
     body {
-        div("hello world")
+        div("Hello world")
     }
 }
 ```
