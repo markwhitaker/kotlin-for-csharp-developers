@@ -21,9 +21,9 @@
   * [Interfaces](04-01-interfaces.md)
   * [Objects](04-02-objects.md)
   * [Enums](04-03-enums.md)
-* [DSL functions](05-00-dsl-functions.md)
+* [Domain-specific languages](05-00-domain-specific-languages.md)
   * [DSL overview](05-01-dsl-overview.md)
   * [Defining lambdas](05-02-defining-lambdas.md)
   * [Calling lambdas](05-03-calling-lambdas.md)
-  
+
 * [Summary](06-00-summary.md)

@@ -64,4 +64,4 @@ TrafficLight.RED.describe()
 TrafficLight.GREEN.serialize()
 ```
 
-[Next: DSL functions](05-00-dsl-functions.md)
+[Next: Domain-specific languages](05-00-domain-specific-languages.md)

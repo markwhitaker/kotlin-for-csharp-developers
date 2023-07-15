@@ -1,4 +1,4 @@
-# DSL functions: overview
+# DSL overview
 The code snippet on the previous page...
 
 #### Kotlin
