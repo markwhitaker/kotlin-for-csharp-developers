@@ -26,4 +26,4 @@ fun buildWilf = Person().apply {
     }
 ```
 
-[Next: Summary](06-summary.md)
+[Next: Summary](06-00-summary.md)
