@@ -1,7 +1,7 @@
 # Classes: the basics
 Declare...
 * a class with `class`
-* methods with `fun` 🥳
+* methods with `fun`
 * properties with `var`/`val`
 
 #### C#

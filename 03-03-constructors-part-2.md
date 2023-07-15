@@ -1,5 +1,5 @@
 # Constructors (part 2)
-Ready for an extra helping of 🤯?
+Ready for an extra helping of :exploding_head:?
 
 You can mix and match constructor **properties** and regular constructor **parameters**
 
