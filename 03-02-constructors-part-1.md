@@ -18,7 +18,7 @@ public class MyClass
     public MyClass(string s)
     {
         ...
-	}
+    }
 }
 ```
 
@@ -53,7 +53,7 @@ class MyClass(s: String) {
 
     init {
         someProperty = s
-	}
+    }
 }
 ```
 
@@ -84,7 +84,7 @@ public class Service
         _repository = repository;
         _logger = logger;
         Name = name;
-	}
+    }
 }
 ```
 

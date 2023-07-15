@@ -20,7 +20,7 @@ class ImplicitlyInternal
 {
     void ImplicitlyPrivate()
     {
-	}
+    }
 }
 ```
 
@@ -28,7 +28,7 @@ class ImplicitlyInternal
 ```kotlin
 class ImplicitlyPublic {
     fun implicitlyPublic() {
-	}
+    }
 }
 ```
 

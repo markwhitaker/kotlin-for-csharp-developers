@@ -14,7 +14,7 @@ public static class Thing
     public static void DoStuff()
     {
         ...
-	}
+    }
 }
 
 Thing.DoStuff();
@@ -30,7 +30,7 @@ object Thing {
 
     fun doStuff() {
         ...
-	}
+    }
 }
 
 Thing.doStuff()
@@ -46,11 +46,11 @@ Objects can extend classes and implement interfaces
 object Thing : BaseClass(), Interface {
     override fun baseClassMethod() {
         ...
-	}
+    }
 
-	override fun InterfaceMethod {
+    override fun InterfaceMethod {
         ...
-	}
+    }
 }
 ```
 
@@ -66,12 +66,12 @@ public class Singleton
     private Singleton()
     {
         ...
-	}
+    }
 
     public InstanceMethod()
     {
         ...
-	}
+    }
 }
 
 var instance = Singleton.Instance;
@@ -84,11 +84,11 @@ instance.InstanceMethod();
 class Singleton private constructor() {
     fun instanceMethod() {
         ...
-	}
+    }
 
     companion object {
         val instance = Singleton()    // can access the private constructor
-	}
+    }
 }
 
 var instance = Singleton.instance     // property called directly on the class

@@ -8,7 +8,7 @@ public abstract class AbstractThing
     public AbstractThing(string name)
     {
         ...
-	}
+    }
 
     public void Run()
     {
@@ -21,14 +21,14 @@ public abstract class AbstractThing
 public sealed class Thing : AbstractThing
 {
     public Thing(string name) : base(name)
-	{
-	    ...
-	}
+    {
+        ...
+    }
 
-	protected override void DoWork()
-	{
-	    ...
-	}
+    protected override void DoWork()
+    {
+        ...
+    }
 }
 ```
 
@@ -37,7 +37,7 @@ public sealed class Thing : AbstractThing
 abstract class AbstractThing(val name: String) {
     fun run() {
         doWork()
-	}
+    }
 
     protected abstract fun doWork()
 }
@@ -45,7 +45,7 @@ abstract class AbstractThing(val name: String) {
 class Thing(name: String) : AbstractThing(name) {
     override fun doWork() {
         ...
-	}
+    }
 }
 ```
 

@@ -13,7 +13,7 @@ Lambda with a parameter and a return value:
 #### Kotlin
 ```kotlin
 outputAsHexString(100, { i ->
-	i.toString(16)
+    i.toString(16)
 })
 ```
 

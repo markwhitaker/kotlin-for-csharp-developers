@@ -6,11 +6,11 @@ What does that mean? It means that multiple lines of code that operate on a sing
 #### Kotlin
 ```kotlin
 fun buildWilf() {
-	var wilf = Person()
-	wilf.name = "Wilf"
-	wilf.age = 5
-	wilf.loadHobbies()
-	return wilf
+    var wilf = Person()
+    wilf.name = "Wilf"
+    wilf.age = 5
+    wilf.loadHobbies()
+    return wilf
 }
 ```
 
@@ -19,11 +19,11 @@ Can be rewritten as
 #### Kotlin
 ```kotlin
 fun buildWilf = Person().apply {
-		// everything at this level is implicitly operating on this
-	    name = "Wilf"
-	    age = 5
-	    loadHobbies()
-	}
+        // everything at this level is implicitly operating on this
+        name = "Wilf"
+        age = 5
+        loadHobbies()
+    }
 ```
 
 [Next: Summary](06-summary.md)

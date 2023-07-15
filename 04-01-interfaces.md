@@ -17,7 +17,7 @@ interface MyInterface {
     val name: String
     fun printName() {
         println(name)
-	}
+    }
 }
 ```
 
@@ -29,7 +29,7 @@ class MyClass : MyInterface {
     override val name: String = "Bob"
     override fun printName() {
         // override the default from the interface
-	}
+    }
 }
 ```
 

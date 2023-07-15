@@ -17,8 +17,8 @@ public class Thing
     public string Property3
     {
         get => LoadProperty3();
-	    set => SaveProperty3(value);
-	}
+        set => SaveProperty3(value);
+    }
 }
 ```
 
@@ -35,7 +35,7 @@ class Thing {
         get() = loadProperty3()
         set(value) {
             saveProperty3(value)
-		}
+        }
 }
 ```
 

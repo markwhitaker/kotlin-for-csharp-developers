@@ -10,12 +10,12 @@ public class Service
     public Service(IRepository repository)
     {
         _repository = repository;
-	}
+    }
 
     public Service(IRepository repository, ILogger logger) : this(repository)
     {
         logger.Log("Hello");
-	}
+    }
 }
 ```
 
@@ -26,7 +26,7 @@ class Service(
 ) {
     constructor(repository: Repository, logger: Logger) : this(repository) {
         logger.log("Hello")
-	}
+    }
 }
 ```
 

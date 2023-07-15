@@ -6,8 +6,8 @@ Enums are classes in Kotlin
 public enum TrafficLight
 {
     Red,
-	Yellow,
-	Green
+    Yellow,
+    Green
 }
 ```
 
@@ -31,7 +31,7 @@ enum class TrafficLight(private val sameColourAs: String) {
 
     fun describe() {
         println("I'm the same colour as a $sameColourAs")
-	}
+    }
 }
 
 TrafficLight.YELLOW.describe() // "I'm the same colour as a banana"
@@ -44,8 +44,8 @@ And they can extend any type (not just integral types)
 public enum TrafficLight : byte
 {
     Red,
-	Yellow,
-	Green
+    Yellow,
+    Green
 }
 ```
 

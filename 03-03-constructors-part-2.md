@@ -16,7 +16,7 @@ public class Service
         _repository = repository;
         Name = name;
         // do something else with age - it isn't a property
-	}
+    }
 }
 ```
 
@@ -40,10 +40,10 @@ public class Service
     private readonly ILogger _logger;
 
     public Service(IRepository repository)
-	{
-	    _repository = repository;
+    {
+        _repository = repository;
         _logger = new Logger();
-	}
+    }
 }
 ```
 
