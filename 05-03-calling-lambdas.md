@@ -3,7 +3,7 @@ Lambda parameters are passed to functions using curly braces `{}`. Here's how we
 
 Lambda with no parameters and no return value:
 #### Kotlin
-```
+```kotlin
 doLongRunningThing({
     println("Done.")
 })
@@ -11,7 +11,7 @@ doLongRunningThing({
 
 Lambda with a parameter and a return value:
 #### Kotlin
-```
+```kotlin
 outputAsHexString(100, { i ->
 	i.toString(16)
 })
@@ -21,14 +21,14 @@ outputAsHexString(100, { i ->
 Kotlin says that if a lambda is the last parameter to a function (a **trailing lambda**), its body can be placed outside the function's `()` brackets. Here's how that looks:
 
 #### Kotlin
-```
+```kotlin
 doLongRunningThing() {
     println("Done.")
 }
 ```
 
 #### Kotlin
-```
+```kotlin
 outputAsHexString(100) { i ->
     i.toString(16)
 }
@@ -37,7 +37,7 @@ outputAsHexString(100) { i ->
  And if that leaves the brackets empty, they can be omitted completely. So our first example now looks like this:
 
 #### Kotlin
-```
+```kotlin
 doLongRunningThing {
     println("Done.")
 }

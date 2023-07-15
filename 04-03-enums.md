@@ -2,7 +2,7 @@
 Enums are classes in Kotlin
 
 #### C#
-```
+```csharp
 public enum TrafficLight
 {
     Red,
@@ -12,7 +12,7 @@ public enum TrafficLight
 ```
 
 #### Kotlin
-```
+```kotlin
 enum class TrafficLight {
     RED,
     YELLOW,
@@ -23,7 +23,7 @@ enum class TrafficLight {
 This means they can have properties and methods
 
 #### Kotlin
-```
+```kotlin
 enum class TrafficLight(private val sameColourAs: String) {
     RED("tomato"),
     YELLOW("banana"),
@@ -40,7 +40,7 @@ TrafficLight.YELLOW.describe() // "I'm the same colour as a banana"
 And they can extend any type (not just integral types)
 
 #### C#
-```
+```csharp
 public enum TrafficLight : byte
 {
     Red,
@@ -50,7 +50,7 @@ public enum TrafficLight : byte
 ```
 
 #### Kotlin
-```
+```kotlin
 enum class TrafficLight : Describable, Serializable {
     RED,
     YELLOW,

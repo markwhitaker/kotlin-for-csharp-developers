@@ -6,7 +6,7 @@ Equivalent to `const` in C#
 * Named in `SCREAMING_CASE` (like Java constants)
 
 #### C#
-```
+```csharp
 const int port = 80;
 readonly string schema = "https";
 readonly string host;  // Class field
@@ -17,7 +17,7 @@ host = "portswigger.com";  // ERROR: can only assign once
 ```
 
 #### Kotlin
-```
+```kotlin
 const val PORT = 80   // As above, type can be inferred
 val schema = "https"
 val host: String   // Can be a class field or local (or even global)

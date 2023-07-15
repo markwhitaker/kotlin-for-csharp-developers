@@ -2,7 +2,7 @@
 Overloaded constructors are implemented with the `constructor` keyword:
 
 #### C#
-```
+```csharp
 public class Service
 {
     private readonly IRepository _repository;
@@ -20,7 +20,7 @@ public class Service
 ```
 
 #### Kotlin
-```
+```kotlin
 class Service(
     private val repository: Repository
 ) {

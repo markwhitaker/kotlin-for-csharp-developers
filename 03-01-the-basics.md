@@ -5,7 +5,7 @@ Declare...
 * properties with `var`/`val`
 
 #### C#
-```
+```csharp
 public class Thing
 {
     private string _field;
@@ -23,7 +23,7 @@ public class Thing
 ```
 
 #### Kotlin
-```
+```kotlin
 class Thing {
     private var field: String = ""
 

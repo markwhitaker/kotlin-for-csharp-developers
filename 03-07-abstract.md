@@ -2,7 +2,7 @@
 Very similar to C#, and open/closed rules are identical to those for `open` classes
 
 #### C#
-```
+```csharp
 public abstract class AbstractThing
 {
     public AbstractThing(string name)
@@ -33,7 +33,7 @@ public sealed class Thing : AbstractThing
 ```
 
 #### Kotlin
-```
+```kotlin
 abstract class AbstractThing(val name: String) {
     fun run() {
         doWork()

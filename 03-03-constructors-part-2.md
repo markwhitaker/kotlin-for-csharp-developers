@@ -4,7 +4,7 @@ Ready for an extra helping of 🤯?
 You can mix and match constructor **properties** and regular constructor **parameters**
 
 #### C#
-```
+```csharp
 public class Service
 {
     private readonly IRepository _repository;
@@ -21,7 +21,7 @@ public class Service
 ```
 
 #### Kotlin
-```
+```kotlin
 class Service(
     private val repository: Repository,  // Private, read-only property
     var name: String,                    // Public, read/write property
@@ -33,7 +33,7 @@ class Service(
 **And**... a class can have both **constructor properties** and **non-constructor properties**...
 
 #### C#
-```
+```csharp
 public class Service
 {
     private readonly IRepository _repository;
@@ -48,7 +48,7 @@ public class Service
 ```
 
 #### Kotlin
-```
+```kotlin
 class Service(
     private val repository: Repository
 ) {

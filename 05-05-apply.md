@@ -4,7 +4,7 @@
 What does that mean? It means that multiple lines of code that operate on a single object can be reduced to a single line. For example:
 
 #### Kotlin
-```
+```kotlin
 fun buildWilf() {
 	var wilf = Person()
 	wilf.name = "Wilf"
@@ -17,7 +17,7 @@ fun buildWilf() {
 Can be rewritten as
 
 #### Kotlin
-```
+```kotlin
 fun buildWilf = Person().apply {
 		// everything at this level is implicitly operating on this
 	    name = "Wilf"

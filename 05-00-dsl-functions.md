@@ -2,7 +2,7 @@
 Sometimes we see stuff like this in Kotlin:
 
 #### Kotlin
-```
+```kotlin
 html {
     body {
         div("hello world")

@@ -15,7 +15,7 @@ Kotlin has the following visibility modifiers:
 The default for everything is `public`.
 
 #### C#
-```
+```csharp
 class ImplicitlyInternal
 {
     void ImplicitlyPrivate()
@@ -25,7 +25,7 @@ class ImplicitlyInternal
 ```
 
 #### Kotlin
-```
+```kotlin
 class ImplicitlyPublic {
     fun implicitlyPublic() {
 	}

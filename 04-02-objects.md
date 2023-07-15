@@ -6,7 +6,7 @@ However, it has built-in support for singleton objects with the `object` keyword
 So the nearest equivalent to this...
 
 #### C#
-```
+```csharp
 public static class Thing
 {
     public static readonly string Name => "Bob"
@@ -24,7 +24,7 @@ Console.WriteLine(Thing.Name);
 is this...
 
 #### Kotlin
-```
+```kotlin
 object Thing {
     val name = "Bob"
 
@@ -42,7 +42,7 @@ println(Thing.name)
 Objects can extend classes and implement interfaces
 
 #### Kotlin
-```
+```kotlin
 object Thing : BaseClass(), Interface {
     override fun baseClassMethod() {
         ...
@@ -58,7 +58,7 @@ object Thing : BaseClass(), Interface {
 The equivalent of a **static method** in a **non-static class** can be achieved with a `companion object`
 
 #### C#
-```
+```csharp
 public class Singleton
 {
     public static Singleton Instance => new Singleton();
@@ -80,7 +80,7 @@ instance.InstanceMethod();
 ```
 
 #### Kotlin
-```
+```kotlin
 class Singleton private constructor() {
     fun instanceMethod() {
         ...

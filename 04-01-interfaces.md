@@ -2,7 +2,7 @@
 Very similar to C# (although without the `I` naming convention)
 
 #### Kotlin
-```
+```kotlin
 interface MyInterface {
     val name: String
     fun printName()
@@ -12,7 +12,7 @@ interface MyInterface {
 ...except methods can have default implementations
 
 #### Kotlin
-```
+```kotlin
 interface MyInterface {
     val name: String
     fun printName() {
@@ -24,7 +24,7 @@ interface MyInterface {
 Classes implement interface members with `override`
 
 #### Kotlin
-```
+```kotlin
 class MyClass : MyInterface {
     override val name: String = "Bob"
     override fun printName() {

@@ -2,7 +2,7 @@
 Constructors are called without a `new` keyword in Kotlin
 
 #### Kotlin
-```
+```kotlin
 var myObject = MyClass()
 ```
 
@@ -12,7 +12,7 @@ Here's where things get funky
 A class's **primary constructor** is defined inline with the class declaration
 
 #### C#
-```
+```csharp
 public class MyClass
 {
     public MyClass(string s)
@@ -23,7 +23,7 @@ public class MyClass
 ```
 
 #### Kotlin
-```
+```kotlin
 class MyClass constructor(s: String) {
 }
 ```
@@ -31,7 +31,7 @@ class MyClass constructor(s: String) {
 The constructor here (like everything in Kotlin) is implicitly `public`, so if that's what we want we can omit the `constructor` keyword
 
 #### Kotlin
-```
+```kotlin
 class MyClass(s: String) {
 }
 ```
@@ -39,7 +39,7 @@ class MyClass(s: String) {
 Or we can make it `private`/`protected`/`internal` like this
 
 #### Kotlin
-```
+```kotlin
 class MyClass private constructor(s: String) {
 }
 ```
@@ -47,7 +47,7 @@ class MyClass private constructor(s: String) {
 If we need to access `s` we can do it in an `init` block:
 
 #### Kotlin
-```
+```kotlin
 class MyClass(s: String) {
     private val someProperty: String
 
@@ -60,7 +60,7 @@ class MyClass(s: String) {
 **But** a more common pattern is to initialise properties directly in the constructor by adding the `val` or `var` keyword...
 
 #### Kotlin
-```
+```kotlin
 class MyClass(val someProperty: String) {
 }
 
@@ -71,7 +71,7 @@ println(myObject.someProperty)   // "Hello world"
 This looks 😵‍💫 at first sight but it makes for nice small classes when you compare with C#...
 
 #### C#
-```
+```csharp
 public class Service
 {
     private readonly IRepository _repository;
@@ -89,7 +89,7 @@ public class Service
 ```
 
 #### Kotlin
-```
+```kotlin
 class Service(
     private val repository: Repository,
     private val logger: Logger,
