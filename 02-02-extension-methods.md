@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Extension methods
 
 These work exactly the same as in C# but the syntax is slightly different

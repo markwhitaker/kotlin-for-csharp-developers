@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Calling lambdas
 Lambda parameters are passed to functions using curly braces `{}`. Here's how we'd pass a lambda to each of the functions from the previous page:
 

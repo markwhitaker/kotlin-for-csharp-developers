@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Constructors (part 2)
 Ready for an extra helping of 🤯?
 

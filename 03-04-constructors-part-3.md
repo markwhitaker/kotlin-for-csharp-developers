@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Constructors (part 3)
 Overloaded constructors are implemented with the `constructor` keyword:
 

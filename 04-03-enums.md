@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Enums
 Enums are classes in Kotlin
 

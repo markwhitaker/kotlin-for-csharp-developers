@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Functions
 Kotlin has
 * Global functions

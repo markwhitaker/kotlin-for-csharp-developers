@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Other types
 As well as classes, Kotlin has
 * Interfaces

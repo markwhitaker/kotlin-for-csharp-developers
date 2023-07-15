@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Classes
 Kotlin has
 * pretty familiar-looking classes

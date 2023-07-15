@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Inheritance
 In Kotlin, **classes**, **methods** and **properties** are `final` by default - they cannot be overridden
 

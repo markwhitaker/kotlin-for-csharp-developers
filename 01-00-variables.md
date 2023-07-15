@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Variables
 Kotlin variables can be
 * re-assignable (like a `var` in C#)

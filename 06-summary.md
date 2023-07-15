@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Summary
 
 ## What have we learned? 🧑‍🎓

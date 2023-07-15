@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # DSL functions: overview
 The code snippet on the previous page...
 

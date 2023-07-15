@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Basics
 ## Scope
 Variables and functions can be declared at

@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # abstract
 Very similar to C#, and open/closed rules are identical to those for `open` classes
 

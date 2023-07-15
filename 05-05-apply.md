@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # apply()
 `apply()` is a method available on all Kotlin objects. It takes a lambda whose context is `this` and returns `this`.
 

@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Constructors (part 1)
 Constructors are called without a `new` keyword in Kotlin
 

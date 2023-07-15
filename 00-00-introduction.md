@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Kotlin for C# developers
 
 There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/)

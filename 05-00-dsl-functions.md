@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # DSL functions
 Sometimes we see stuff like this in Kotlin:
 

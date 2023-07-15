@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Interfaces
 Very similar to C# (although without the `I` naming convention)
 

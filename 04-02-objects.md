@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Objects
 Kotlin doesn't have `static` (or anything equivalent)
 

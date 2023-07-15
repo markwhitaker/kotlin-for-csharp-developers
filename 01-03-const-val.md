@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Variables
 ## const val
 Equivalent to `const` in C#

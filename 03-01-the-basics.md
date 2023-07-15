@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Classes: the basics
 Declare...
 * a class with `class`

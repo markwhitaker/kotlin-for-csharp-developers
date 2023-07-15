@@ -1,4 +1,3 @@
-Kotlin for C# developers
 # Defining lambdas
 Rember that [function parameters](02-00-Functions) are passed as `name: Type` in Kotlin, e.g.
 
