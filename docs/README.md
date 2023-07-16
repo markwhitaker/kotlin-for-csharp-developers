@@ -26,6 +26,6 @@
   * [Defining lambdas](05-02-defining-lambdas.md)
   * [Calling lambdas](05-03-calling-lambdas.md)
   * [Function literals with receiver (part 1)](05-04-function-literals-with-receiver-part-1.md)
-  * [Function literals with receiver (part 2)](05-04-function-literals-with-receiver-part-2.md)
+  * [Function literals with receiver (part 2)](05-05-function-literals-with-receiver-part-2.md)
 
 * [Summary](06-00-summary.md)

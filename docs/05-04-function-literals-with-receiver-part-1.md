@@ -4,14 +4,14 @@ We've seen [extension methods](02-02-extension-methods.md):
 
 ```kotlin
 Type.extensionMethod() {
-    doStuffWith(this);
+    doStuffWith(this)
 }
 ```
 
 And we've seen [lambdas](05-02-defining-lambdas.md):
 
 ```kotlin
-fun doLongRunningThing(onDone: () -> Unit) {
+fun doLongRunningTask(onDone: () -> Unit) {
     figureOutMeaningOfLife()
     onDone()
 }

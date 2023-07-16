@@ -17,7 +17,7 @@ public class MyClass
 {
     public MyClass(string s)
     {
-        ...
+        //...
     }
 }
 ```
@@ -61,7 +61,7 @@ class MyClass(val someProperty: String) {
 }
 
 var myObject = MyClass("hello world")
-println(myObject.someProperty)   // "Hello world"
+println(myObject.someProperty)   // "hello world"
 ```
 
 This looks 😵‍💫 at first sight but it makes for nice small classes when you compare with C#.

@@ -4,14 +4,14 @@ Lambda parameters are passed to functions using curly braces `{}`. Here's how we
 Lambda with no parameters and no return value:
 
 ```kotlin
-fun doLongRunningThing(onDone: () -> Unit) {
+fun doLongRunningTask(onDone: () -> Unit) {
     figureOutMeaningOfLife()
     onDone()
 }
 
 //...
 
-doLongRunningThing({
+doLongRunningTask({
     println("Done.")
 })
 ```
@@ -19,16 +19,16 @@ doLongRunningThing({
 Lambda with a parameter and a return value:
 
 ```kotlin
-fun outputAsHexString(value: Int, convertToHexString: (Int) -> String) {
-    val hexString = convertToHexString(value)
-    println(hexString)
+fun logAsString(int: Int, convertToString: (Int) -> String) {
+    val string = convertToString(int)
+    println(string)
 }
 
 
 //...
 
-outputAsHexString(100, { i ->
-    i.toString(16)
+logAsString(100, { i ->
+    i.toString(radix = 16) // convert to hex string
 })
 ```
 
@@ -36,12 +36,12 @@ outputAsHexString(100, { i ->
 If a lambda is the last parameter to a function (a **trailing lambda**), its body can be placed outside the function's `()` brackets. We can use this syntax when passing both of our earlier lambdas.
 
 ```kotlin
-doLongRunningThing() {
+doLongRunningTask() {
     println("Done.")
 }
 
-outputAsHexString(100) { i ->
-    i.toString(16)
+logAsString(100) { i ->
+    i.toString(radix = 16)
 }
 ```
 
@@ -50,7 +50,7 @@ outputAsHexString(100) { i ->
  So our first example now looks like this:
 
 ```kotlin
-doLongRunningThing {
+doLongRunningTask {
     println("Done.")
 }
 ```

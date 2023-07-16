@@ -13,7 +13,7 @@ public static class Thing
 
     public static void DoStuff()
     {
-        ...
+        //...
     }
 }
 
@@ -26,10 +26,10 @@ is this...
 **Kotlin**
 ```kotlin
 object Thing {
-    val name = "Bob"
+    const val name = "Bob"
 
     fun doStuff() {
-        ...
+        //...
     }
 }
 
@@ -45,11 +45,11 @@ Objects can extend classes and implement interfaces.
 ```kotlin
 object Thing : BaseClass(), Interface {
     override fun baseClassMethod() {
-        ...
+        //...
     }
 
-    override fun InterfaceMethod {
-        ...
+    override fun InterfaceMethod() {
+        //...
     }
 }
 ```
@@ -65,12 +65,12 @@ public class Singleton
 
     private Singleton()
     {
-        ...
+        //...
     }
 
     public InstanceMethod()
     {
-        ...
+        //...
     }
 }
 
@@ -83,7 +83,7 @@ instance.InstanceMethod();
 ```kotlin
 class Singleton private constructor() {
     fun instanceMethod() {
-        ...
+        //...
     }
 
     companion object {

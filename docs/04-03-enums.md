@@ -56,8 +56,8 @@ enum class TrafficLight : Describable, Serializable {
     YELLOW,
     GREEN;
 
-    override fun describe() {...}
-    override fun serialize() {...}
+    override fun describe() {/*...*/}
+    override fun serialize() {/*...*/}
 }
 
 TrafficLight.RED.describe()
