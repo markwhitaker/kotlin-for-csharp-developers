@@ -59,4 +59,4 @@ doLongRunningThing {
 
 That's starting to look closer to DSL syntax already. We're nearly there.
 
-[Next: Function literals with receiver](05-04-function-literals-with-receiver.md)
+[Next: Function literals with receiver](05-04-function-literals-with-receiver-part-1.md)
