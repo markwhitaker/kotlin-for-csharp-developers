@@ -30,7 +30,6 @@ class MyClass constructor(s: String) {
 
 The constructor here (like everything in Kotlin) is implicitly `public`, so if that's what we want we can omit the `constructor` keyword.
 
-**Kotlin**
 ```kotlin
 class MyClass(s: String) {
 }
@@ -38,7 +37,6 @@ class MyClass(s: String) {
 
 Or we can make it `private`/`protected`/`internal`.
 
-**Kotlin**
 ```kotlin
 class MyClass private constructor(s: String) {
 }
@@ -46,7 +44,6 @@ class MyClass private constructor(s: String) {
 
 If we need to access `s` we can do it in an `init` block.
 
-**Kotlin**
 ```kotlin
 class MyClass(s: String) {
     private val someProperty: String
@@ -59,7 +56,6 @@ class MyClass(s: String) {
 
 **But** a more common pattern is to initialise properties directly in the constructor by adding the `val` or `var` keyword.
 
-**Kotlin**
 ```kotlin
 class MyClass(val someProperty: String) {
 }

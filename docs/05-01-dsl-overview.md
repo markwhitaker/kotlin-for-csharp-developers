@@ -1,7 +1,6 @@
 # DSL overview
 The code snippet on the previous page...
 
-**Kotlin**
 ```kotlin
 html {
     body {

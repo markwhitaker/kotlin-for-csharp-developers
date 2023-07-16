@@ -2,7 +2,6 @@
 
 We've seen [extension methods](02-02-extension-methods.md):
 
-**Kotlin**
 ```kotlin
 Type.extensionMethod() {
     doStuffWith(this);
@@ -11,7 +10,6 @@ Type.extensionMethod() {
 
 And we've seen [lambdas](05-02-defining-lambdas.md):
 
-**Kotlin**
 ```kotlin
 fun doLongRunningThing(onDone: () -> Unit) {
     figureOutMeaningOfLife()
@@ -23,7 +21,6 @@ What happens if we put those two syntax elements together? The answer is we get 
 
 Here's an example:
 
-**Kotlin**
 ```kotlin
 fun html(provideContent: Html.() -> Unit): Html {
     val html = Html()
@@ -44,7 +41,6 @@ The lambda is the **function literal**, and the `Html` class is the **receiver**
 
 Let's imagine our `Html` class is very basic indeed and looks like this:
 
-**Kotlin**
 ```kotlin
 class Html {
     private var content = ""
@@ -56,7 +52,6 @@ class Html {
 ```
 And now let's put all that together and see how the `html` function is called:
 
-**Kotlin**
 ```kotlin
 val myHtml = html {
     // We're now inside the lambda body:
@@ -74,7 +69,6 @@ println(myHtml)
 
 Look! We've built a very simple DSL! This is the exact equivalent of writing this:
 
-**Kotlin**
 ```kotlin
 val myHtml = Html()
 myHtml.div("Hello world")

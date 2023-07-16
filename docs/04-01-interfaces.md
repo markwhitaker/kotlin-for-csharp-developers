@@ -11,7 +11,6 @@ interface MyInterface {
 
 Like C# 8.0, Kotlin methods can have default implementations.
 
-**Kotlin**
 ```kotlin
 interface MyInterface {
     val name: String
@@ -23,7 +22,6 @@ interface MyInterface {
 
 Classes implement interface members with the `override` keyword.
 
-**Kotlin**
 ```kotlin
 class MyClass : MyInterface {
     override val name: String = "Bob"

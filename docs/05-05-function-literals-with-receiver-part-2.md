@@ -7,7 +7,6 @@ To do this we'll need to:
 * move the `div` method to the `Body` class
 * add a `body` method to `Html`, whose argument will be another function literal with receiver, this time with `Body` as the receiver
 
-**Kotlin**
 ```kotlin
 class Html {
     private var content = ""
@@ -40,7 +39,6 @@ fun html(provideContent: Html.() -> Unit): Html {
 
 Now we can build our HTML like this:
 
-**Kotlin**
 ```kotlin
 val myHtml = html {
     body {
@@ -59,7 +57,6 @@ println(myHtml)
 
 The equivalent Kotlin without DSL syntax would look like this:
 
-**Kotlin**
 ```kotlin
 var myBody = Body()
 myBody.div("Hello world")
@@ -67,8 +64,8 @@ myBody.div("Goodbye world")
 
 val myHtml = Html()
 myHtml.body(myBody)
+
+println(myHtml)
 ```
-
-
 
 [Next: Summary](06-00-summary.md)

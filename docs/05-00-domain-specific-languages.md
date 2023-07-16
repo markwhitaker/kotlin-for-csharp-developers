@@ -1,7 +1,6 @@
 # Domain-specific languages
 Sometimes we see stuff like this in Kotlin:
 
-**Kotlin**
 ```kotlin
 html {
     head {

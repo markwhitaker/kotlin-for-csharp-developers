@@ -2,7 +2,7 @@
 Lambda parameters are passed to functions using curly braces `{}`. Here's how we'd pass a lambda to each of the functions from the previous page:
 
 Lambda with no parameters and no return value:
-**Kotlin**
+
 ```kotlin
 fun doLongRunningThing(onDone: () -> Unit) {
     figureOutMeaningOfLife()
@@ -17,7 +17,7 @@ doLongRunningThing({
 ```
 
 Lambda with a parameter and a return value:
-**Kotlin**
+
 ```kotlin
 fun outputAsHexString(value: Int, convertToHexString: (Int) -> String) {
     val hexString = convertToHexString(value)
@@ -35,7 +35,6 @@ outputAsHexString(100, { i ->
 ## Trailing lambdas
 If a lambda is the last parameter to a function (a **trailing lambda**), its body can be placed outside the function's `()` brackets. We can use this syntax when passing both of our earlier lambdas.
 
-**Kotlin**
 ```kotlin
 doLongRunningThing() {
     println("Done.")
@@ -50,7 +49,6 @@ outputAsHexString(100) { i ->
 
  So our first example now looks like this:
 
-**Kotlin**
 ```kotlin
 doLongRunningThing {
     println("Done.")
