@@ -21,9 +21,9 @@ So here the **name** of the lambda parameter is `onDone` and its **type** is `()
 Here's an example with a lambda that takes a parameter and returns something:
 
 ```kotlin
-fun outputAsHexString(value: Int, convertToHexString: (Int) -> String) {
-    val hexString = convertToHexString(value)
-    println(hexString)
+fun logAsString(int: Int, convertToString: (Int) -> String) {
+    val string = convertToString(int)
+    println(string)
 }
 ```
 
