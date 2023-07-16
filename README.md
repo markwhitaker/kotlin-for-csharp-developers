@@ -4,4 +4,4 @@ A beginner's guide to Kotlin, specifically for an audience of C# developers.
 
 I know, niche.
 
-## [View the site](https://markwhitaker.github.io/kotlin-for-csharp-developers/)
+**[Read it here](docs/README.md)** or **[view the site](https://markwhitaker.github.io/kotlin-for-csharp-developers/)**.
