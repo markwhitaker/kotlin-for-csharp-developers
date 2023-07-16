@@ -57,7 +57,7 @@ println(myHtml)
 // </body>
 ```
 
-When we take a look at the equivalent Kotlin without DSL syntax, we can start to see how much code we're saving with the DSL:
+The equivalent Kotlin without DSL syntax would look like this:
 
 **Kotlin**
 ```kotlin
