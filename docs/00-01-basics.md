@@ -1,4 +1,10 @@
 # Basics
+## Naming
+Kotlin follows Java naming conventions:
+* `PascalCase` for type names
+* `camelCase` for variable, function and method names
+* `SCREAMING_CASE` for constants and enum values
+
 ## Scope
 Variables and functions can be declared at:
 * **file scope** (globals)
