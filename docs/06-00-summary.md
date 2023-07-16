@@ -4,7 +4,7 @@
 
 * **Some basics**: scope and visibility
 * **Variables**: `var`, `val` and `const val`
-* **Functions**: `fun` 🥳 for global functions, class methods and extension methods
+* **Functions**: `fun` for global functions, class methods and extension methods
 * **Classes**: `class`, `constructor` and `init`
 * **Inheritance**: `open`, `abstract` and `final`
 * **Interfaces**: `interface`
