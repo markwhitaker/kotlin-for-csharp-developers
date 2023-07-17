@@ -45,7 +45,7 @@ logAsString(100) { i ->
 }
 ```
 
- And if that leaves the brackets empty (as with our `doLongRunningThing()` example), the brackets can be omitted completely.
+ And if that leaves the brackets empty (as with our `doLongRunningTask()` example), the brackets can be omitted completely.
 
  So our first example now looks like this:
 

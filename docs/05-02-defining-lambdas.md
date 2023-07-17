@@ -8,7 +8,7 @@ fun multiplyBy2(value: Int) = value * 2
 Kotlin also supports **lambdas**, which are passed to functions using the following syntax:
 
 ```kotlin
-fun doLongRunningThing(onDone: () -> Unit) {
+fun doLongRunningTask(onDone: () -> Unit) {
     figureOutMeaningOfLife()
     onDone()
 }
