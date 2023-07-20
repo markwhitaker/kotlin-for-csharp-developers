@@ -1,4 +1,4 @@
-# Extension methods
+# 2.2. Extension methods
 
 These are used much the same as in C# but are declared differently. In Kotlin:
 

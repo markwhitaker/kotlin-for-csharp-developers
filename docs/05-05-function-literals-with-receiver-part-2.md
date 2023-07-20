@@ -1,4 +1,4 @@
-# Function literals with receiver (part 2)
+# 5.5. Function literals with receiver (part 2)
 
 Of course, we wouldn't normally put a `<div>` tag right inside `<html>`, so let's build that up further to allow a `<body>` element to be nested between `<html>` and `<div>`.
 

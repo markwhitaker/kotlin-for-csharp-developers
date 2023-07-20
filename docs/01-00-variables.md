@@ -1,4 +1,4 @@
-# Variables
+# 1. Variables
 Kotlin variables can be:
 * re-assignable (like a `var` in C#)
 * read-only

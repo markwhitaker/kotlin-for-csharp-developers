@@ -1,4 +1,4 @@
-# abstract
+# 3.7. abstract
 Kotlin's `abstract` is very similar to its C# counterpart, and open/closed rules are identical to those for `open` classes.
 
 **C#**

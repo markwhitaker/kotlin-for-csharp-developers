@@ -1,4 +1,4 @@
-# Classes
+# 3. Classes
 Kotlin has:
 * pretty familiar-looking classes
 * pretty zany-looking constructors

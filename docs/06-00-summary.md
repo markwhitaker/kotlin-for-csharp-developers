@@ -1,4 +1,4 @@
-# Summary
+# 6. Summary
 
 ## What have we learned? 🧑‍🎓
 

@@ -1,4 +1,4 @@
-# Classes: the basics
+# 3.1. Classes: the basics
 In Kotlin, you declare:
 * a class with `class`
 * methods with `fun`

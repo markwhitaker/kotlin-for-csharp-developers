@@ -1,4 +1,4 @@
-# Calling lambdas
+# 5.3. Calling lambdas
 Lambda parameters are passed to functions using curly braces `{}`. Here's how we'd pass a lambda to each of the functions from the previous page:
 
 Lambda with no parameters and no return value:

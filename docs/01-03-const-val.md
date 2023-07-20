@@ -1,4 +1,4 @@
-# Variables
+# 1.3. Variables
 ## const val
 `const val` is equivalent to `const` in C#. In Kotlin, a `const val`:
 * must be initialised where it's declared

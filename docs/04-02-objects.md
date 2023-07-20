@@ -1,4 +1,4 @@
-# Objects
+# 4.2. Objects
 Kotlin doesn't have `static` (or anything equivalent).
 
 However, it has built-in support for singleton objects with the `object` keyword.

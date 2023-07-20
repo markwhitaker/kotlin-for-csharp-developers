@@ -1,4 +1,4 @@
-# Other types
+# 4. Other types
 As well as classes, Kotlin has:
 * Interfaces
 * Objects

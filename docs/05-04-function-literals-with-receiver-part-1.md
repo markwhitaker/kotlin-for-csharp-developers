@@ -1,4 +1,4 @@
-# Function literals with receiver (part 1)
+# 5.4. Function literals with receiver (part 1)
 
 We've seen [extension methods](02-02-extension-methods.md):
 

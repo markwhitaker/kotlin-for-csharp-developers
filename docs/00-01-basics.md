@@ -1,4 +1,4 @@
-# Basics
+# 0.1. Basics
 ## Naming
 Kotlin follows Java naming conventions:
 * `PascalCase` for type names
