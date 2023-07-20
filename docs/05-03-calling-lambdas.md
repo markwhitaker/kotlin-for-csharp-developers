@@ -1,4 +1,4 @@
-# 5.3. Calling lambdas
+## 5.3. Calling lambdas
 Lambda parameters are passed to functions using curly braces `{}`. Here's how we'd pass a lambda to each of the functions from the previous page:
 
 Lambda with no parameters and no return value:
@@ -32,7 +32,7 @@ logAsString(100, { i ->
 })
 ```
 
-## Trailing lambdas
+### Trailing lambdas
 If a lambda is the last parameter to a function (a **trailing lambda**), its body can be placed outside the function's `()` brackets. We can use this syntax when passing both of our earlier lambdas.
 
 ```kotlin

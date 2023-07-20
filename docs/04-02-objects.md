@@ -1,4 +1,4 @@
-# 4.2. Objects
+## 4.2. Objects
 Kotlin doesn't have `static` (or anything equivalent).
 
 However, it has built-in support for singleton objects with the `object` keyword.
@@ -54,7 +54,7 @@ object Thing : BaseClass(), Interface {
 }
 ```
 
-## Companion objects
+### Companion objects
 The equivalent of a **static method** in a **non-static class** can be achieved with a `companion object`.
 
 **C#**

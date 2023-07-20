@@ -1,4 +1,4 @@
-# 5. Domain-specific languages
+## 5. Domain-specific languages
 Sometimes we see stuff like this in Kotlin:
 
 ```kotlin

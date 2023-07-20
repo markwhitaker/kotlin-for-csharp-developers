@@ -1,4 +1,4 @@
-# 5.2. Defining lambdas
+## 5.2. Defining lambdas
 Rember that [function parameters](02-00-functions.md) are passed as `name: Type` in Kotlin, for example:
 
 ```kotlin

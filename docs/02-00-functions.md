@@ -1,4 +1,4 @@
-# 2. Functions
+## 2. Functions
 Kotlin has:
 * Global functions
 * Class methods

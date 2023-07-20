@@ -1,6 +1,6 @@
-# 6. Summary
+## 6. Summary
 
-## What have we learned? 🧑‍🎓
+### What have we learned? 🧑‍🎓
 
 * **Some basics**: scope and visibility
 * **Variables**: `var`, `val` and `const val`

@@ -1,4 +1,4 @@
-# 4.3. Enums
+## 4.3. Enums
 Enums are classes in Kotlin and their values are named in `SCREAMING_CASE`.
 
 **C#**

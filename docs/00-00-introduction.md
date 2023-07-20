@@ -1,4 +1,4 @@
-# 0. Introduction
+## 0. Introduction
 
 There's great, detailed documentation at [kotlinlang.org/docs](https://kotlinlang.org/docs/).
 
