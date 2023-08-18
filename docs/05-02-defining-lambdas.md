@@ -1,5 +1,5 @@
 ## 5.2. Defining lambdas
-Rember that [function parameters](02-00-functions.md) are passed as `name: Type` in Kotlin, for example:
+Remember that [function parameters](02-00-functions.md) are passed as `name: Type` in Kotlin, for example:
 
 ```kotlin
 fun multiplyBy2(value: Int) = value * 2
