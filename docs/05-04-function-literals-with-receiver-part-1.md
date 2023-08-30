@@ -43,11 +43,11 @@ Let's imagine our `Html` class is very basic indeed and looks like this:
 
 ```kotlin
 class Html {
-    private var content = ""
+    private val contentBuilder = StringBuilder()
 
-    fun div(innerText: String) = content += "<div>$innerText</div>\n"
+    fun div(innerText: String) = contentBuilder.appendLine("<div>$innerText</div>")
 
-    override fun toString() = content
+    override fun toString() = "<html>\n$contentBuilder</html>\n"
 }
 ```
 And now let's put all that together and see how the `html` function is called:
@@ -63,8 +63,10 @@ val myHtml = html {
 
 println(myHtml)
 // Output:
+// <html>
 // <div>Hello world</div>
 // <div>Goodbye world</div>
+// </html>
 ```
 
 Look! We've built a very simple DSL! This is the exact equivalent of writing this:

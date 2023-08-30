@@ -9,25 +9,23 @@ To do this we'll need to:
 
 ```kotlin
 class Html {
-    private var content = ""
+    private val contentBuilder = StringBuilder()
 
     fun body(provideContent: Body.() -> Unit) {
         val body = Body()
         body.provideContent()
-        content += "<body>\n${body}</body>"
+        contentBuilder.appendLine(body.toString())
     }
 
-    override fun toString() = content
+    override fun toString() = "<html>\n$contentBuilder</html>\n"
 }
 
 class Body {
-    private var content = ""
+    private val contentBuilder = StringBuilder()
 
-    fun div(innerText: String) {
-        content += "<div>$innerText</div>\n"
-    }
+    fun div(innerText: String) = contentBuilder.appendLine("<div>$innerText</div>")
 
-    override fun toString() = content
+    override fun toString() = "<body>\n$contentBuilder</body>\n"
 }
 
 fun html(provideContent: Html.() -> Unit): Html {
@@ -49,10 +47,12 @@ val myHtml = html {
 
 println(myHtml)
 // Output:
+// <html>
 // <body>
 // <div>Hello world</div>
 // <div>Goodbye world</div>
 // </body>
+// </html>
 ```
 
 The equivalent Kotlin without DSL syntax would look like this:
