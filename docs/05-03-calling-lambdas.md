@@ -4,13 +4,13 @@ Lambda parameters are passed to functions using curly braces `{}`. Here's how we
 Lambda with no parameters and no return value:
 
 ```kotlin
+// Define a function with a lambda parameter
 fun doLongRunningTask(onDone: () -> Unit) {
     figureOutMeaningOfLife()
     onDone()
 }
 
-//...
-
+// Now call it, passing a lambda body
 doLongRunningTask({
     println("Done.")
 })
@@ -19,14 +19,13 @@ doLongRunningTask({
 Lambda with a parameter and a return value:
 
 ```kotlin
+// Define a function with a lambda parameter
 fun logAsString(int: Int, convertToString: (Int) -> String) {
     val string = convertToString(int)
     println(string)
 }
 
-
-//...
-
+// Now call it
 logAsString(100, { i ->
     i.toString(radix = 16) // convert to hex string
 })
