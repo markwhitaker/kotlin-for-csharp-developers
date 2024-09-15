@@ -11,8 +11,8 @@ readonly string schema = "https";
 readonly string host;  // Class field
 
 // Later, in the constructor
-host = "portswigger.net";
-host = "portswigger.com";  // ERROR: can only assign once
+host = "kotlinlang.org";
+host = "microsoft.com";  // ERROR: can only assign once
 ```
 
 **Kotlin**
@@ -22,8 +22,8 @@ val schema = "https"
 val host: String   // Can be a class field or local (or even global)
 
 // Later
-host = "portswigger.net"
-host = "portswigger.com"  // ERROR: can only assign once
+host = "kotlinlang.org"
+host = "microsoft.com"  // ERROR: can only assign once
 ```
 
 [Next: Functions](02-00-functions.md)
