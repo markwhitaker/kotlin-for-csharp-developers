@@ -37,7 +37,7 @@ enum class TrafficLight(private val sameColourAs: String) {
 TrafficLight.YELLOW.describe() // "I'm the same colour as a banana"
 ```
 
-[I told you](01-01-var.md) we'd see a semicolon eventually! Did you spot it?
+([I told you](01-01-var.md) we'd see a semicolon eventually! Did you spot it?)
 
 And they can extend any type (not just integral types).
 
